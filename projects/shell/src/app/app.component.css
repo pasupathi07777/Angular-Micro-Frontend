@@ -1,0 +1,33 @@
+/* Navbar Container */
+.navbar {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation List */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Links */
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover & Active States */
+.nav-list a:hover,
+.nav-list a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
